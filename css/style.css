@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #000;
+}
+
+body h2,
+body p,
+body ul {
+    font-size: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+
+header {
+    background-color: #0A669F;
+    padding: 18px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+header ul li {
+    display: inline;
+    margin: 0px 18px;
+}
+
+header ul li a{
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: aqua;
+}
+
+#sobre-mim {
+    padding: 36px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sobre-mim img {
+    border-radius: 100%;
+    height: 300px;
+}
+
+#sobre-mim div {
+    width: 500px;
+    text-align: end;
+}
+
+#sobre-mim h2 {
+    margin-bottom: 24px;
+
+}
+
+#metas {
+    background-color: #0A669F;
+    padding: 75px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#metas img{
+    border-radius: 20px;
+}
+
+#metas h2 {
+    font-size: 32px;
+}
+
+#metas h2, 
+#metas p {
+    margin-bottom: 24px;
+}
+
+#metas ul li{
+    margin-bottom: 1px; 
+}
+
+#interesses {
+    padding: 75px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#interesses img {
+    border-radius: 20px;
+}
+
+#interesses div{
+    width: 500px;
+    text-align: end;
+}
+
+#interesses h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+
+#contatos {
+    background-color: #0A669F;
+    padding: 75px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contatos ul {
+    list-style: none;
+}
+
+#contatos ul li {
+    margin-bottom: 20px;
+}
+
+#contatos ul li a{
+    display: inline;
+    text-decoration: none;
+}
+
+#contatos ul li a:hover {
+    color: aqua;
+}
+
+#contatos ul li a img {
+    width: 40px;
+}
+
+#contatos div {
+    text-align: center;
+}
+
+#contatos h2,
+#contatos p {
+    margin-bottom: 24px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
