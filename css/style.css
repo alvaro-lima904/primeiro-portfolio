@@ -27,6 +27,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
 }
 
 header ul {
@@ -47,11 +49,17 @@ header ul li a:hover {
     color: aqua;
 }
 
-#sobre-mim {
-    padding: 36px 30px;
+#sobre-mim,
+#metas,
+#interesses,
+#contatos {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#sobre-mim {
+    padding: 36px 30px;
 }
 
 #sobre-mim img {
@@ -65,6 +73,7 @@ header ul li a:hover {
 }
 
 #sobre-mim h2 {
+    font-size: 32px;
     margin-bottom: 24px;
 
 }
@@ -72,9 +81,6 @@ header ul li a:hover {
 #metas {
     background-color: #0A669F;
     padding: 75px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 #metas img{
@@ -96,9 +102,6 @@ header ul li a:hover {
 
 #interesses {
     padding: 75px 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 #interesses img {
@@ -115,13 +118,9 @@ header ul li a:hover {
     margin-bottom: 24px;
 }
 
-
 #contatos {
     background-color: #0A669F;
     padding: 75px 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 #contatos ul {
