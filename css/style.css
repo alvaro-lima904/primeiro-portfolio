@@ -123,6 +123,10 @@ header ul li a:hover {
     padding: 75px 30px;
 }
 
+#contatos h2 {
+    font-size: 32px;
+}
+
 #contatos ul {
     list-style: none;
 }
